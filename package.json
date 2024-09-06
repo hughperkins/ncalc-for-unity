@@ -1,0 +1,19 @@
+{
+  "name": "com.yourcompany.ncalc",
+  "version": "1.0.0",
+  "displayName": "NCalc",
+  "description": "NCalc is a mathematical expressions evaluator in C#.",
+  "unity": "2019.4",
+  "keywords": [
+    "ncalc",
+    "math",
+    "expressions",
+    "evaluator"
+  ],
+  "author": {
+    "name": "Your Name",
+    "email": "your-email@example.com",
+    "url": "https://yourwebsite.com"
+  },
+  "license": "MIT"
+}
