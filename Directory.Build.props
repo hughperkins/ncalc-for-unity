@@ -9,10 +9,10 @@
     <EnableNETAnalyzers>true</EnableNETAnalyzers>
   </PropertyGroup>
   <ItemGroup>
-    <PackageReference Include="Nerdbank.GitVersioning" Condition="!Exists('packages.config')">
+    <!-- <PackageReference Include="Nerdbank.GitVersioning" Condition="!Exists('packages.config')">
       <Version>3.4.244</Version>
       <PrivateAssets>all</PrivateAssets>
-    </PackageReference>
+    </PackageReference> -->
     <PackageReference Include="PolySharp" Version="1.14.1">
       <PrivateAssets>all</PrivateAssets>
       <IncludeAssets>runtime; build; native; contentfiles; analyzers; buildtransitive</IncludeAssets>
