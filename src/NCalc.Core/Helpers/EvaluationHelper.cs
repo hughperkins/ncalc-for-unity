@@ -47,15 +47,37 @@ public static class EvaluationHelper
     /// <exception cref="NCalcEvaluationException">Thrown when the right value is not an enumerable or a string.</exception>
     public static bool In(object? rightValue, object? leftValue, ExpressionContextBase context)
     {
-        return rightValue switch
-        {
-            string rightValueString => Contains(leftValue, rightValueString, context),
-            IEnumerable<object?> rightValueEnumerable => Contains(leftValue, rightValueEnumerable, context),
-            { } rightValueObject => Contains(leftValue, [rightValueObject], context),
-            _ => throw new NCalcEvaluationException(
-                "'in' operator right value must implement IEnumerable, be a string or an object.")
-        };
+        // return rightValue switch
+        // {
+        //     string rightValueString => Contains(leftValue, rightValueString, context),
+        //     IEnumerable<object?> rightValueEnumerable => Contains(leftValue, rightValueEnumerable, context),
+        //     { } rightValueObject => Contains(leftValue, [rightValueObject], context),
+        //     _ => throw new NCalcEvaluationException(
+        //         "'in' operator right value must implement IEnumerable, be a string or an object.")
+        // };
+                // public static bool In(object? rightValue, object? leftValue, ExpressionContextBase context)
+        // {
+            if (rightValue is string rightValueString)
+            {
+                return Contains(leftValue, rightValueString, context);
+            }
+            if (rightValue is IEnumerable<object?> rightValueEnumerable)
+            {
+                return Contains(leftValue, rightValueEnumerable, context);
+            }
+            if (rightValue != null)
+            {
+                return Contains(leftValue, CreateSingleElementEnumerable(rightValue), context);
+            }
+            throw new NCalcEvaluationException(
+                "'in' operator right value must implement IEnumerable, be a string or an object.");
+        // }
     }
+
+        private static IEnumerable<object> CreateSingleElementEnumerable(object item)
+        {
+            yield return item;
+        }
 
     private static bool Contains(object? leftValue, string rightValue, ExpressionContextBase context)
     {

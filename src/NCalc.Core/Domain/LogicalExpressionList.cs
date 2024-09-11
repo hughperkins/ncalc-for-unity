@@ -25,10 +25,15 @@ public sealed class LogicalExpressionList : LogicalExpression, IList<LogicalExpr
         set => _list[index] = value;
     }
 
-    public IEnumerator<LogicalExpression> GetEnumerator()
-    {
-        return _list.GetEnumerator();
-    }
+    // public IEnumerator<LogicalExpression> GetEnumerator()
+    // {
+    //     return _list.GetEnumerator();
+    // }
+
+        public IEnumerator<LogicalExpression> GetEnumerator()
+        {
+            return new LogicalExpressionEnumerator(this);
+        }
 
     IEnumerator IEnumerable.GetEnumerator()
     {
@@ -79,4 +84,29 @@ public sealed class LogicalExpressionList : LogicalExpression, IList<LogicalExpr
     {
         return visitor.Visit(this);
     }
+
+          private class LogicalExpressionEnumerator : IEnumerator<LogicalExpression>
+        {
+            private readonly LogicalExpressionList _list;
+            private int _index = -1;
+
+            public LogicalExpressionEnumerator(LogicalExpressionList list)
+            {
+                _list = list;
+            }
+
+            public bool MoveNext()
+            {
+                _index++;
+                return _index < _list.Count;
+            }
+
+            public void Reset() => _index = -1;
+
+            public LogicalExpression Current => _list[_index];
+
+            object IEnumerator.Current => Current;
+
+            public void Dispose() { }
+        }
 }
