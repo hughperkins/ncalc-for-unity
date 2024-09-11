@@ -1,10 +1,10 @@
-﻿using Microsoft.Extensions.Logging;
+﻿// using Microsoft.Extensions.Logging;
 using BezierGraph.Dependencies.NCalc.Domain;
 using BezierGraph.Dependencies.NCalc.Logging;
 
 namespace BezierGraph.Dependencies.NCalc.Cache;
 
-public sealed class LogicalExpressionCache(ILogger<LogicalExpressionCache> logger) : ILogicalExpressionCache
+public sealed class LogicalExpressionCache() : ILogicalExpressionCache
 {
     private readonly ConcurrentDictionary<string, WeakReference<LogicalExpression>> _compiledExpressions = new();
 
@@ -12,7 +12,7 @@ public sealed class LogicalExpressionCache(ILogger<LogicalExpressionCache> logge
 
     public static LogicalExpressionCache GetInstance()
     {
-        return _instance ??= new LogicalExpressionCache(DefaultLoggerFactory.Value.CreateLogger<LogicalExpressionCache>());
+        return _instance ??= new LogicalExpressionCache();
     }
 
     public bool TryGetValue(string expression, out LogicalExpression? logicalExpression)
@@ -24,7 +24,7 @@ public sealed class LogicalExpressionCache(ILogger<LogicalExpressionCache> logge
         if (!wr.TryGetTarget(out logicalExpression))
             return false;
 
-        logger.LogRetrievedFromCache(expression);
+        // logger.LogRetrievedFromCache(expression);
 
         return true;
     }
@@ -33,7 +33,7 @@ public sealed class LogicalExpressionCache(ILogger<LogicalExpressionCache> logge
     {
         _compiledExpressions[expression] = new WeakReference<LogicalExpression>(logicalExpression);
         ClearCache();
-        logger.LogAddedToCache(expression);
+        // logger.LogAddedToCache(expression);
     }
 
     private void ClearCache()
@@ -45,7 +45,7 @@ public sealed class LogicalExpressionCache(ILogger<LogicalExpressionCache> logge
 
             if (_compiledExpressions.TryRemove(kvp.Key, out _))
             {
-                logger.LogRemovedFromCache(kvp.Key);
+                // logger.LogRemovedFromCache(kvp.Key);
             }
         }
     }

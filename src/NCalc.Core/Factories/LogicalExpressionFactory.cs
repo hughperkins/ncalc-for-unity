@@ -1,4 +1,4 @@
-using Microsoft.Extensions.Logging;
+// using Microsoft.Extensions.Logging;
 using BezierGraph.Dependencies.NCalc.Cache;
 using BezierGraph.Dependencies.NCalc.Domain;
 using BezierGraph.Dependencies.NCalc.Exceptions;
@@ -10,13 +10,13 @@ namespace BezierGraph.Dependencies.NCalc.Factories;
 /// <summary>
 /// Class responsible to create <see cref="LogicalExpression"/> objects. Parlot is used for parsing strings.
 /// </summary>
-public sealed class LogicalExpressionFactory(ILogger<LogicalExpressionFactory> logger) : ILogicalExpressionFactory
+public sealed class LogicalExpressionFactory() : ILogicalExpressionFactory
 {
     private static LogicalExpressionFactory? _instance;
 
     public static LogicalExpressionFactory GetInstance()
     {
-        return _instance ??= new LogicalExpressionFactory(DefaultLoggerFactory.Value.CreateLogger<LogicalExpressionFactory>());
+        return _instance ??= new LogicalExpressionFactory();
     }
 
     LogicalExpression ILogicalExpressionFactory.Create(string expression, ExpressionOptions options)
@@ -27,7 +27,7 @@ public sealed class LogicalExpressionFactory(ILogger<LogicalExpressionFactory> l
         }
         catch (Exception exception)
         {
-            logger.LogErrorCreatingLogicalExpression(exception,expression);
+            // logger.LogErrorCreatingLogicalExpression(exception,expression);
             throw new NCalcParserException("Error parsing the expression.", exception);
         }
     }
