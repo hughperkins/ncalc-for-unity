@@ -1,9 +1,9 @@
 using BenchmarkDotNet.Attributes;
 using BenchmarkDotNet.Order;
-using NCalc.Factories;
-using NCalc.Handlers;
+using BezierGraph.Dependencies.NCalc.Factories;
+using BezierGraph.Dependencies.NCalc.Handlers;
 
-namespace NCalc.Benchmarks;
+namespace BezierGraph.Dependencies.NCalc.Benchmarks;
 
 [RankColumn]
 [CategoriesColumn]

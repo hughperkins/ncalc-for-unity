@@ -1,12 +1,12 @@
-﻿using NCalc.Cache;
-using NCalc.Domain;
-using NCalc.Exceptions;
-using NCalc.Factories;
-using NCalc.Handlers;
-using NCalc.Helpers;
-using NCalc.Services;
+﻿using BezierGraph.Dependencies.NCalc.Cache;
+using BezierGraph.Dependencies.NCalc.Domain;
+using BezierGraph.Dependencies.NCalc.Exceptions;
+using BezierGraph.Dependencies.NCalc.Factories;
+using BezierGraph.Dependencies.NCalc.Handlers;
+using BezierGraph.Dependencies.NCalc.Helpers;
+using BezierGraph.Dependencies.NCalc.Services;
 
-namespace NCalc;
+namespace BezierGraph.Dependencies.NCalc;
 
 /// <summary>
 /// This class represents a mathematical or logical expression that can be asynchronous evaluated.

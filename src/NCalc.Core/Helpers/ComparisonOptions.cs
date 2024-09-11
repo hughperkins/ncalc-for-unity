@@ -1,4 +1,4 @@
-namespace NCalc.Helpers;
+namespace BezierGraph.Dependencies.NCalc.Helpers;
 
 public readonly struct ComparisonOptions(CultureInfo cultureInfo, ExpressionOptions options)
 {

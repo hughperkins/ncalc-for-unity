@@ -1,8 +1,8 @@
 #nullable enable
-using NCalc.Exceptions;
-using NCalc.Tests.TestData;
+using BezierGraph.Dependencies.NCalc.Exceptions;
+using BezierGraph.Dependencies.NCalc.Tests.TestData;
 
-namespace NCalc.Tests;
+namespace BezierGraph.Dependencies.NCalc.Tests;
 
 [Trait("Category", "Evaluations")]
 public class EvaluationTests

@@ -1,6 +1,6 @@
-using NCalc.Factories;
+using BezierGraph.Dependencies.NCalc.Factories;
 
-namespace NCalc.Tests;
+namespace BezierGraph.Dependencies.NCalc.Tests;
 
 [Trait("Category", "Operators")]
 public class OperatorsTests

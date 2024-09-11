@@ -1,9 +1,9 @@
 ﻿#nullable disable
 
 using System.Reflection;
-using NCalc.Helpers;
+using BezierGraph.Dependencies.NCalc.Helpers;
 
-namespace NCalc.Reflection;
+namespace BezierGraph.Dependencies.NCalc.Reflection;
 
 public static class LinqUtils
 {

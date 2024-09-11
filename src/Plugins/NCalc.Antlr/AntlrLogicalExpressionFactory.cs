@@ -1,9 +1,9 @@
 ﻿using Antlr4.Runtime;
-using NCalc.Domain;
-using NCalc.Exceptions;
-using NCalc.Factories;
+using BezierGraph.Dependencies.NCalc.Domain;
+using BezierGraph.Dependencies.NCalc.Exceptions;
+using BezierGraph.Dependencies.NCalc.Factories;
 
-namespace NCalc.Antlr;
+namespace BezierGraph.Dependencies.NCalc.Antlr;
 
 /// <summary>
 /// Antlr implementation of <see cref="ILogicalExpressionFactory"/>.

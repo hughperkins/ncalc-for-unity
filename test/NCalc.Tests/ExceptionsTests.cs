@@ -1,7 +1,7 @@
-using NCalc.Exceptions;
-using NCalc.Factories;
+using BezierGraph.Dependencies.NCalc.Exceptions;
+using BezierGraph.Dependencies.NCalc.Factories;
 
-namespace NCalc.Tests;
+namespace BezierGraph.Dependencies.NCalc.Tests;
 
 [Trait("Category", "Exceptions")]
 public class ExceptionsTests

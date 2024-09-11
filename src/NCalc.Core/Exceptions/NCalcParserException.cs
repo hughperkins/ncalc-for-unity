@@ -1,4 +1,4 @@
-namespace NCalc.Exceptions;
+namespace BezierGraph.Dependencies.NCalc.Exceptions;
 
 public sealed class NCalcParserException : NCalcException
 {

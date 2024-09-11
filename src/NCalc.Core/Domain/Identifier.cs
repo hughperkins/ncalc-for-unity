@@ -1,6 +1,6 @@
-using NCalc.Visitors;
+using BezierGraph.Dependencies.NCalc.Visitors;
 
-namespace NCalc.Domain;
+namespace BezierGraph.Dependencies.NCalc.Domain;
 
 public sealed class Identifier(string name) : LogicalExpression
 {

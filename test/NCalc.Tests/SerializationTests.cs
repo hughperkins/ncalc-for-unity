@@ -1,9 +1,9 @@
-using NCalc.Domain;
-using NCalc.Factories;
-using NCalc.Tests.TestData;
+using BezierGraph.Dependencies.NCalc.Domain;
+using BezierGraph.Dependencies.NCalc.Factories;
+using BezierGraph.Dependencies.NCalc.Tests.TestData;
 using Newtonsoft.Json;
 
-namespace NCalc.Tests;
+namespace BezierGraph.Dependencies.NCalc.Tests;
 
 [Trait("Category", "Serialization")]
 public class SerializationTests

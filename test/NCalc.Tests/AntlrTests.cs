@@ -1,8 +1,8 @@
-﻿using NCalc.Factories;
-using NCalc.Tests.Fixtures;
-using NCalc.Tests.TestData;
+﻿using BezierGraph.Dependencies.NCalc.Factories;
+using BezierGraph.Dependencies.NCalc.Tests.Fixtures;
+using BezierGraph.Dependencies.NCalc.Tests.TestData;
 
-namespace NCalc.Tests;
+namespace BezierGraph.Dependencies.NCalc.Tests;
 
 [Trait("Category", "Plugins")]
 public class AntlrTests(FactoriesWithAntlrFixture fixture) : IClassFixture<FactoriesWithAntlrFixture>

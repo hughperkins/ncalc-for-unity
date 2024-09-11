@@ -1,8 +1,8 @@
 using System.Text.RegularExpressions;
-using NCalc.Domain;
-using NCalc.Exceptions;
+using BezierGraph.Dependencies.NCalc.Domain;
+using BezierGraph.Dependencies.NCalc.Exceptions;
 
-namespace NCalc.Helpers;
+namespace BezierGraph.Dependencies.NCalc.Helpers;
 
 /// <summary>
 /// Provides helper methods for evaluating expressions.

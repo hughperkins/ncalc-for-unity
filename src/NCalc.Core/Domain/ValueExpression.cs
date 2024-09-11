@@ -1,7 +1,7 @@
-using NCalc.Exceptions;
-using NCalc.Visitors;
+using BezierGraph.Dependencies.NCalc.Exceptions;
+using BezierGraph.Dependencies.NCalc.Visitors;
 
-namespace NCalc.Domain;
+namespace BezierGraph.Dependencies.NCalc.Domain;
 
 public sealed class ValueExpression : LogicalExpression
 {

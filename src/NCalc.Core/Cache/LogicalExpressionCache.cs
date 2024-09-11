@@ -1,8 +1,8 @@
 ﻿using Microsoft.Extensions.Logging;
-using NCalc.Domain;
-using NCalc.Logging;
+using BezierGraph.Dependencies.NCalc.Domain;
+using BezierGraph.Dependencies.NCalc.Logging;
 
-namespace NCalc.Cache;
+namespace BezierGraph.Dependencies.NCalc.Cache;
 
 public sealed class LogicalExpressionCache(ILogger<LogicalExpressionCache> logger) : ILogicalExpressionCache
 {

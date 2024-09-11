@@ -1,9 +1,9 @@
 ﻿#nullable enable
 
 using Microsoft.Extensions.DependencyInjection;
-using NCalc.DependencyInjection;
+using BezierGraph.Dependencies.NCalc.DependencyInjection;
 
-namespace NCalc.Cache.Configuration;
+namespace BezierGraph.Dependencies.NCalc.Cache.Configuration;
 
 public static class NCalcServiceBuilderExtensions
 {

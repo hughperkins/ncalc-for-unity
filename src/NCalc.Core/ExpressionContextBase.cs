@@ -1,6 +1,6 @@
-﻿using NCalc.Helpers;
+﻿using BezierGraph.Dependencies.NCalc.Helpers;
 
-namespace NCalc;
+namespace BezierGraph.Dependencies.NCalc;
 
 public abstract record ExpressionContextBase
 {

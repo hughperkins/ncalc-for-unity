@@ -2,7 +2,7 @@
 
 using System.Collections.Frozen;
 
-namespace NCalc.Helpers;
+namespace BezierGraph.Dependencies.NCalc.Helpers;
 
 public static class MathFunctionHelper
 {

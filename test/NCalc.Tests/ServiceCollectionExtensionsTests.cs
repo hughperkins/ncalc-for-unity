@@ -1,12 +1,12 @@
 ﻿using Microsoft.Extensions.DependencyInjection;
-using NCalc.Cache;
-using NCalc.DependencyInjection;
-using NCalc.Domain;
-using NCalc.Exceptions;
-using NCalc.Factories;
-using NCalc.Services;
+using BezierGraph.Dependencies.NCalc.Cache;
+using BezierGraph.Dependencies.NCalc.DependencyInjection;
+using BezierGraph.Dependencies.NCalc.Domain;
+using BezierGraph.Dependencies.NCalc.Exceptions;
+using BezierGraph.Dependencies.NCalc.Factories;
+using BezierGraph.Dependencies.NCalc.Services;
 
-namespace NCalc.Tests;
+namespace BezierGraph.Dependencies.NCalc.Tests;
 
 [Trait("Category", "DependencyInjection")]
 public class ServiceCollectionExtensionsTests

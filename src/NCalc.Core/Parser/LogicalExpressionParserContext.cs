@@ -1,7 +1,7 @@
 using Parlot;
 using Parlot.Fluent;
 
-namespace NCalc.Parser;
+namespace BezierGraph.Dependencies.NCalc.Parser;
 
 public sealed class LogicalExpressionParserContext(string text, ExpressionOptions options)
     : ParseContext(new Scanner(text))

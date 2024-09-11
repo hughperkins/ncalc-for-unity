@@ -1,9 +1,9 @@
-﻿using NCalc.Exceptions;
-using NCalc.Visitors;
+﻿using BezierGraph.Dependencies.NCalc.Exceptions;
+using BezierGraph.Dependencies.NCalc.Visitors;
 using LinqExpression = System.Linq.Expressions.Expression;
 using LinqParameterExpression = System.Linq.Expressions.ParameterExpression;
 
-namespace NCalc;
+namespace BezierGraph.Dependencies.NCalc;
 
 public partial class Expression
 {

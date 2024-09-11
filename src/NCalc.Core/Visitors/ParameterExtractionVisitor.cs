@@ -1,6 +1,6 @@
-﻿using NCalc.Domain;
+﻿using BezierGraph.Dependencies.NCalc.Domain;
 
-namespace NCalc.Visitors;
+namespace BezierGraph.Dependencies.NCalc.Visitors;
 
 /// <summary>
 /// Visitor dedicated to extract <see cref="Identifier"/> names from a <see cref="LogicalExpression"/>.

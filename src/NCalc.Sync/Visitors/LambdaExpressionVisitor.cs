@@ -1,14 +1,14 @@
 ﻿#nullable disable
 
 using System.Reflection;
-using NCalc.Domain;
-using NCalc.Helpers;
-using NCalc.Reflection;
+using BezierGraph.Dependencies.NCalc.Domain;
+using BezierGraph.Dependencies.NCalc.Helpers;
+using BezierGraph.Dependencies.NCalc.Reflection;
 using Linq = System.Linq.Expressions;
 using LinqExpression = System.Linq.Expressions.Expression;
 using LinqParameterExpression = System.Linq.Expressions.ParameterExpression;
 
-namespace NCalc.Visitors;
+namespace BezierGraph.Dependencies.NCalc.Visitors;
 
 public sealed class LambdaExpressionVisitor : ILogicalExpressionVisitor<LinqExpression>
 {

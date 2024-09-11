@@ -1,6 +1,6 @@
-using NCalc.Exceptions;
+using BezierGraph.Dependencies.NCalc.Exceptions;
 
-namespace NCalc.Tests;
+namespace BezierGraph.Dependencies.NCalc.Tests;
 
 [Trait("Category", "Comparer")]
 public class ComparerTests

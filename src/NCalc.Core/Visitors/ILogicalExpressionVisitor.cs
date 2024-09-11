@@ -1,6 +1,6 @@
-using NCalc.Domain;
+using BezierGraph.Dependencies.NCalc.Domain;
 
-namespace NCalc.Visitors;
+namespace BezierGraph.Dependencies.NCalc.Visitors;
 
 /// <summary>
 /// Defines methods to visit different types of logical expressions in an abstract syntax tree (AST).

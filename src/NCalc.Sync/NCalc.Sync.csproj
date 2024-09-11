@@ -20,6 +20,10 @@
         <RootNamespace>NCalc</RootNamespace>
     </PropertyGroup>
 
+<ItemGroup>
+  <Compile Remove="ThisAssembly.*.cs" />
+</ItemGroup>
+
     <ItemGroup>
         <None Include="../../NCalc.png">
             <Pack>True</Pack>

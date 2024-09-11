@@ -1,5 +1,5 @@
 ﻿using BenchmarkDotNet.Running;
-using NCalc.Benchmarks;
+using BezierGraph.Dependencies.NCalc.Benchmarks;
 
 BenchmarkRunner.Run<LogicalExpressionFactoryBenchmark>(null, args);
 BenchmarkRunner.Run<SimpleEvaluationBenchmark>(null, args);

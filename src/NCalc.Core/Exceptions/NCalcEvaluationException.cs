@@ -1,3 +1,3 @@
-﻿namespace NCalc.Exceptions;
+﻿namespace BezierGraph.Dependencies.NCalc.Exceptions;
 
 public class NCalcEvaluationException(string message) : NCalcException(message);

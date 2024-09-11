@@ -1,6 +1,6 @@
-using NCalc.Handlers;
+using BezierGraph.Dependencies.NCalc.Handlers;
 
-namespace NCalc;
+namespace BezierGraph.Dependencies.NCalc;
 
 public record AsyncExpressionContext : ExpressionContextBase
 {

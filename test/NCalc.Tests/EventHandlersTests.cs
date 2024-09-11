@@ -1,6 +1,6 @@
-using NCalc.Handlers;
+using BezierGraph.Dependencies.NCalc.Handlers;
 
-namespace NCalc.Tests;
+namespace BezierGraph.Dependencies.NCalc.Tests;
 
 using Xunit;
 

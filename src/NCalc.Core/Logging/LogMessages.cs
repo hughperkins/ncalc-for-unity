@@ -1,6 +1,6 @@
 using Microsoft.Extensions.Logging;
 
-namespace NCalc.Logging;
+namespace BezierGraph.Dependencies.NCalc.Logging;
 
 internal static partial class LogMessages
 {

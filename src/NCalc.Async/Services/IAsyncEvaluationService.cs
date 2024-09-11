@@ -1,6 +1,6 @@
-using NCalc.Domain;
+using BezierGraph.Dependencies.NCalc.Domain;
 
-namespace NCalc.Services;
+namespace BezierGraph.Dependencies.NCalc.Services;
 
 /// <summary>
 /// Service used to asynchronous evaluate the result of a <see cref="LogicalExpression"/>

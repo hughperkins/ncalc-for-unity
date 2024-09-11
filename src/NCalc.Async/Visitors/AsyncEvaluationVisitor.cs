@@ -1,14 +1,14 @@
 ﻿using System.Numerics;
 using System.Threading;
 using ExtendedNumerics;
-using NCalc.Domain;
-using NCalc.Exceptions;
-using NCalc.Handlers;
-using NCalc.Helpers;
-using BinaryExpression = NCalc.Domain.BinaryExpression;
-using UnaryExpression = NCalc.Domain.UnaryExpression;
+using BezierGraph.Dependencies.NCalc.Domain;
+using BezierGraph.Dependencies.NCalc.Exceptions;
+using BezierGraph.Dependencies.NCalc.Handlers;
+using BezierGraph.Dependencies.NCalc.Helpers;
+using BinaryExpression = BezierGraph.Dependencies.NCalc.Domain.BinaryExpression;
+using UnaryExpression = BezierGraph.Dependencies.NCalc.Domain.UnaryExpression;
 
-namespace NCalc.Visitors;
+namespace BezierGraph.Dependencies.NCalc.Visitors;
 
 /// <summary>
 /// Class responsible to asynchronous evaluating <see cref="LogicalExpression"/> objects into CLR objects.

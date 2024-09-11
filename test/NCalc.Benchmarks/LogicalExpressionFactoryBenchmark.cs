@@ -1,11 +1,11 @@
 ﻿using BenchmarkDotNet.Attributes;
 using BenchmarkDotNet.Order;
 using Microsoft.Extensions.Logging;
-using NCalc.Antlr;
-using NCalc.Domain;
-using NCalc.Factories;
+using BezierGraph.Dependencies.NCalc.Antlr;
+using BezierGraph.Dependencies.NCalc.Domain;
+using BezierGraph.Dependencies.NCalc.Factories;
 
-namespace NCalc.Benchmarks;
+namespace BezierGraph.Dependencies.NCalc.Benchmarks;
 
 [RankColumn]
 [CategoriesColumn]

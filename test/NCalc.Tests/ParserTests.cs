@@ -1,7 +1,7 @@
-﻿using NCalc.Domain;
-using NCalc.Factories;
+﻿using BezierGraph.Dependencies.NCalc.Domain;
+using BezierGraph.Dependencies.NCalc.Factories;
 
-namespace NCalc.Tests;
+namespace BezierGraph.Dependencies.NCalc.Tests;
 
 [Trait("Category", "Parser")]
 public class ParserTests

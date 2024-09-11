@@ -1,9 +1,9 @@
 ﻿using Microsoft.Extensions.DependencyInjection;
-using NCalc.Cache;
-using NCalc.Factories;
-using NCalc.Services;
+using BezierGraph.Dependencies.NCalc.Cache;
+using BezierGraph.Dependencies.NCalc.Factories;
+using BezierGraph.Dependencies.NCalc.Services;
 
-namespace NCalc.DependencyInjection;
+namespace BezierGraph.Dependencies.NCalc.DependencyInjection;
 
 public class NCalcServiceBuilder(IServiceCollection services)
 {

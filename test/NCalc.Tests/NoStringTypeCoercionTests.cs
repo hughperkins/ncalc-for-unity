@@ -1,4 +1,4 @@
-namespace NCalc.Tests;
+namespace BezierGraph.Dependencies.NCalc.Tests;
 
 [Trait("Category", "NoTypeCoercion")]
 public class NoStringTypeCoercionTests

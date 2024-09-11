@@ -1,4 +1,4 @@
-namespace NCalc.Helpers;
+namespace BezierGraph.Dependencies.NCalc.Helpers;
 
 internal sealed class StringCoercionComparer : EqualityComparer<object?>
 {

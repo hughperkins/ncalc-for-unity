@@ -1,6 +1,6 @@
-using NCalc.Exceptions;
+using BezierGraph.Dependencies.NCalc.Exceptions;
 
-namespace NCalc.Helpers;
+namespace BezierGraph.Dependencies.NCalc.Helpers;
 
 public static class BuiltInFunctionHelper
 {

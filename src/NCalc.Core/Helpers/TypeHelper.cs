@@ -1,7 +1,7 @@
 ﻿using System.Collections.Frozen;
 using System.Runtime.CompilerServices;
 
-namespace NCalc.Helpers;
+namespace BezierGraph.Dependencies.NCalc.Helpers;
 
 public static class TypeHelper
 {

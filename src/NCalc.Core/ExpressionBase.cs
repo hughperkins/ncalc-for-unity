@@ -1,11 +1,11 @@
 using System.Diagnostics.CodeAnalysis;
-using NCalc.Cache;
-using NCalc.Domain;
-using NCalc.Exceptions;
-using NCalc.Factories;
-using NCalc.Visitors;
+using BezierGraph.Dependencies.NCalc.Cache;
+using BezierGraph.Dependencies.NCalc.Domain;
+using BezierGraph.Dependencies.NCalc.Exceptions;
+using BezierGraph.Dependencies.NCalc.Factories;
+using BezierGraph.Dependencies.NCalc.Visitors;
 
-namespace NCalc;
+namespace BezierGraph.Dependencies.NCalc;
 
 /// <summary>
 /// Base class with common utilities of AST parsing and evaluation.

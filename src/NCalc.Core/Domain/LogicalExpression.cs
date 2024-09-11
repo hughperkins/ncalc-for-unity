@@ -1,7 +1,7 @@
 using System.Diagnostics.Contracts;
-using NCalc.Visitors;
+using BezierGraph.Dependencies.NCalc.Visitors;
 
-namespace NCalc.Domain;
+namespace BezierGraph.Dependencies.NCalc.Domain;
 
 /// <summary>
 /// Represents an abstract syntax tree (AST) node for logical expressions.

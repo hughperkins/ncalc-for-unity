@@ -1,4 +1,4 @@
-namespace NCalc;
+namespace BezierGraph.Dependencies.NCalc;
 
 public class AsyncExpressionParameterData(Guid id, AsyncExpressionContext context)
 {

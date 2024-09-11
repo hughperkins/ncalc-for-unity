@@ -1,6 +1,6 @@
 using System.Runtime.CompilerServices;
 
-namespace NCalc.Helpers;
+namespace BezierGraph.Dependencies.NCalc.Helpers;
 
 public readonly struct MathHelperOptions(CultureInfo cultureInfo, ExpressionOptions options)
 {

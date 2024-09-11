@@ -1,4 +1,4 @@
-﻿namespace NCalc.Tests.TestData;
+﻿namespace BezierGraph.Dependencies.NCalc.Tests.TestData;
 
 public class WaterLevelCheckTestData : TheoryData<string, bool, double>
 {

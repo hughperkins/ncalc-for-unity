@@ -3,7 +3,7 @@
 using System.Reflection;
 using LinqExpression = System.Linq.Expressions.Expression;
 
-namespace NCalc.Reflection;
+namespace BezierGraph.Dependencies.NCalc.Reflection;
 
 public sealed class ExtendedMethodInfo
 {

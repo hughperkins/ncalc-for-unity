@@ -1,10 +1,10 @@
 ﻿using Microsoft.Extensions.DependencyInjection;
-using NCalc.Antlr.Configuration;
-using NCalc.Cache.Configuration;
-using NCalc.DependencyInjection;
-using NCalc.Factories;
+using BezierGraph.Dependencies.NCalc.Antlr.Configuration;
+using BezierGraph.Dependencies.NCalc.Cache.Configuration;
+using BezierGraph.Dependencies.NCalc.DependencyInjection;
+using BezierGraph.Dependencies.NCalc.Factories;
 
-namespace NCalc.Tests.Fixtures;
+namespace BezierGraph.Dependencies.NCalc.Tests.Fixtures;
 
 public abstract class FactoriesFixtureBase
 {

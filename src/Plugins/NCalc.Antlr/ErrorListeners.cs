@@ -1,4 +1,4 @@
-﻿namespace NCalc.Antlr;
+﻿namespace BezierGraph.Dependencies.NCalc.Antlr;
 
 using System.Collections.Generic;
 using System.IO;

@@ -1,4 +1,4 @@
-﻿namespace NCalc.Cache.Configuration;
+﻿namespace BezierGraph.Dependencies.NCalc.Cache.Configuration;
 
 public class LogicalExpressionMemoryCacheOptions
 {

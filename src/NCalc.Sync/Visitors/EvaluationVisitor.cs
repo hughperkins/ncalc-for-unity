@@ -1,12 +1,12 @@
 ﻿using System.Numerics;
 using ExtendedNumerics;
-using NCalc.Domain;
-using NCalc.Exceptions;
-using NCalc.Handlers;
-using NCalc.Helpers;
-using static NCalc.Helpers.TypeHelper;
+using BezierGraph.Dependencies.NCalc.Domain;
+using BezierGraph.Dependencies.NCalc.Exceptions;
+using BezierGraph.Dependencies.NCalc.Handlers;
+using BezierGraph.Dependencies.NCalc.Helpers;
+using static BezierGraph.Dependencies.NCalc.Helpers.TypeHelper;
 
-namespace NCalc.Visitors;
+namespace BezierGraph.Dependencies.NCalc.Visitors;
 
 /// <summary>
 /// Class responsible to evaluating <see cref="LogicalExpression"/> objects into CLR objects.

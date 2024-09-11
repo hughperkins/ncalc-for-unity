@@ -1,7 +1,7 @@
 #nullable disable
 using System.Reflection;
 
-namespace NCalc.Helpers;
+namespace BezierGraph.Dependencies.NCalc.Helpers;
 
 public readonly struct MathMethodInfo
 {

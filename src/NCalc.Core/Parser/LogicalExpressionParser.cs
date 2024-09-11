@@ -1,12 +1,12 @@
 using ExtendedNumerics;
-using NCalc.Domain;
-using NCalc.Exceptions;
+using BezierGraph.Dependencies.NCalc.Domain;
+using BezierGraph.Dependencies.NCalc.Exceptions;
 using Parlot;
 using Parlot.Fluent;
 using static Parlot.Fluent.Parsers;
-using Identifier = NCalc.Domain.Identifier;
+using Identifier = BezierGraph.Dependencies.NCalc.Domain.Identifier;
 
-namespace NCalc.Parser;
+namespace BezierGraph.Dependencies.NCalc.Parser;
 
 /// <summary>
 /// Class responsible for parsing strings into <see cref="LogicalExpression"/> objects.

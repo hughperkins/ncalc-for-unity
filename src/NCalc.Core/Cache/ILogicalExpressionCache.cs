@@ -1,6 +1,6 @@
-﻿using NCalc.Domain;
+﻿using BezierGraph.Dependencies.NCalc.Domain;
 
-namespace NCalc.Cache;
+namespace BezierGraph.Dependencies.NCalc.Cache;
 
 public interface ILogicalExpressionCache
 {

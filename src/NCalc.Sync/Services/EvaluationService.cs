@@ -1,7 +1,7 @@
-using NCalc.Domain;
-using NCalc.Visitors;
+using BezierGraph.Dependencies.NCalc.Domain;
+using BezierGraph.Dependencies.NCalc.Visitors;
 
-namespace NCalc.Services;
+namespace BezierGraph.Dependencies.NCalc.Services;
 
 /// <inheritdoc cref="IEvaluationService"/>
 public class EvaluationService : IEvaluationService

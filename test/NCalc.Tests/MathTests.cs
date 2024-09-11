@@ -1,7 +1,7 @@
-using NCalc.Tests.TestData;
+using BezierGraph.Dependencies.NCalc.Tests.TestData;
 using Assert = Xunit.Assert;
 
-namespace NCalc.Tests;
+namespace BezierGraph.Dependencies.NCalc.Tests;
 
 [Trait("Category", "Math")]
 public class MathsTests

@@ -1,4 +1,4 @@
-namespace NCalc.Domain;
+namespace BezierGraph.Dependencies.NCalc.Domain;
 
 public enum ValueType
 {

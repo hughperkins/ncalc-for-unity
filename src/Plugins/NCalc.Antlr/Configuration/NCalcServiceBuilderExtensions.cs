@@ -1,6 +1,6 @@
-using NCalc.DependencyInjection;
+using BezierGraph.Dependencies.NCalc.DependencyInjection;
 
-namespace NCalc.Antlr.Configuration;
+namespace BezierGraph.Dependencies.NCalc.Antlr.Configuration;
 
 public static class NCalcServiceBuilderExtensions
 {

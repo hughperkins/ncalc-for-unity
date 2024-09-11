@@ -1,7 +1,7 @@
-﻿using NCalc.Domain;
-using ValueType = NCalc.Domain.ValueType;
+﻿using BezierGraph.Dependencies.NCalc.Domain;
+using ValueType = BezierGraph.Dependencies.NCalc.Domain.ValueType;
 
-namespace NCalc.Visitors;
+namespace BezierGraph.Dependencies.NCalc.Visitors;
 
 /// <summary>
 /// Class responsible to converting a <see cref="LogicalExpression"/> into a <see cref="string"/> representation.

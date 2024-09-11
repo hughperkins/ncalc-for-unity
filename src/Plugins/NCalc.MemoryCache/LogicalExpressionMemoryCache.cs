@@ -1,9 +1,9 @@
 ﻿using Microsoft.Extensions.Caching.Memory;
 using Microsoft.Extensions.Options;
-using NCalc.Cache.Configuration;
-using NCalc.Domain;
+using BezierGraph.Dependencies.NCalc.Cache.Configuration;
+using BezierGraph.Dependencies.NCalc.Domain;
 
-namespace NCalc.Cache;
+namespace BezierGraph.Dependencies.NCalc.Cache;
 
 internal sealed class LogicalExpressionMemoryCache(
     IMemoryCache memoryCache,

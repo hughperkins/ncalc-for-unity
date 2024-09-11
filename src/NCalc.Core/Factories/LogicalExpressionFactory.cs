@@ -1,11 +1,11 @@
 using Microsoft.Extensions.Logging;
-using NCalc.Cache;
-using NCalc.Domain;
-using NCalc.Exceptions;
-using NCalc.Logging;
-using NCalc.Parser;
+using BezierGraph.Dependencies.NCalc.Cache;
+using BezierGraph.Dependencies.NCalc.Domain;
+using BezierGraph.Dependencies.NCalc.Exceptions;
+using BezierGraph.Dependencies.NCalc.Logging;
+using BezierGraph.Dependencies.NCalc.Parser;
 
-namespace NCalc.Factories;
+namespace BezierGraph.Dependencies.NCalc.Factories;
 
 /// <summary>
 /// Class responsible to create <see cref="LogicalExpression"/> objects. Parlot is used for parsing strings.

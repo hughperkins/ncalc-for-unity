@@ -1,5 +1,5 @@
-﻿using NCalc;
-using NCalc.Exceptions;
+﻿using BezierGraph.Dependencies.NCalc;
+using BezierGraph.Dependencies.NCalc.Exceptions;
 
 AppContext.SetSwitch("NCalc.Logging.EnableConsole",true);
 

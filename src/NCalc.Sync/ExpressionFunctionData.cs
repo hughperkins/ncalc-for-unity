@@ -1,4 +1,4 @@
-namespace NCalc;
+namespace BezierGraph.Dependencies.NCalc;
 
 public class ExpressionFunctionData(Guid id, Expression[] arguments, ExpressionContext context) : IEnumerable<Expression>
 {

@@ -1,8 +1,8 @@
-﻿using NCalc.Cache;
-using NCalc.Domain;
-using NCalc.Services;
+﻿using BezierGraph.Dependencies.NCalc.Cache;
+using BezierGraph.Dependencies.NCalc.Domain;
+using BezierGraph.Dependencies.NCalc.Services;
 
-namespace NCalc.Factories;
+namespace BezierGraph.Dependencies.NCalc.Factories;
 
 /// <summary>
 /// Default <see cref="IExpressionFactory"/> implementation.

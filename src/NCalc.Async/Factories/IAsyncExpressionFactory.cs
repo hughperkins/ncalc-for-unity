@@ -1,6 +1,6 @@
-﻿using NCalc.Domain;
+﻿using BezierGraph.Dependencies.NCalc.Domain;
 
-namespace NCalc.Factories;
+namespace BezierGraph.Dependencies.NCalc.Factories;
 
 public interface IAsyncExpressionFactory
 {

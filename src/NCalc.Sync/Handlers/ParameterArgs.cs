@@ -1,4 +1,4 @@
-namespace NCalc.Handlers;
+namespace BezierGraph.Dependencies.NCalc.Handlers;
 
 public class ParameterArgs(Guid id) : EventArgs
 {

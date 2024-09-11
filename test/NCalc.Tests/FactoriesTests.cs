@@ -1,7 +1,7 @@
-﻿using NCalc.Factories;
-using NCalc.Tests.Fixtures;
+﻿using BezierGraph.Dependencies.NCalc.Factories;
+using BezierGraph.Dependencies.NCalc.Tests.Fixtures;
 
-namespace NCalc.Tests;
+namespace BezierGraph.Dependencies.NCalc.Tests;
 
 [Trait("Category", "DependencyInjection")]
 public class FactoriesTests(FactoriesFixture fixture) : IClassFixture<FactoriesFixture>
